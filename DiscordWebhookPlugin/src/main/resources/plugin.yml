@@ -1,0 +1,9 @@
+name: DiscordWebhookPlugin
+version: '${project.version}'
+main: de.codeali.discordwebhookplugin.DiscordWebhookPlugin
+description: This plugin connects to your discord server, you can use it to send messages from Minecraft or join/leave and start/stop messages.
+commands:
+  dcsend:
+  discordwebhookplugin:
+    aliases:
+      - dwp

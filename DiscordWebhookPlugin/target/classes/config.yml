@@ -1,0 +1,20 @@
+PREFIX: '&b[&cDiscordWebhookPlugin&b]&e'
+PERMISSION: 'discordwebhookplugin.send'
+PERMISSION MESSAGE: '<prefix> You dont have permissions to run this command.'
+WebHookURL: '' #URL From You WebHook
+
+JOIN:
+  ENABLED: true #Here you can specify whether the join messages are displayed.
+  MESSAGE: '<player> joined the server'
+LEAVE:
+  ENABLED: true #Here you can specify whether the leave messages are displayed.
+  MESSAGE: '<player> left the server'
+
+DEATH:
+  ENABLED: false
+  MESSAGE: '<player> is died.'
+
+MESSAGES:
+  SENDING: '<player>: ' #Here then comes the message from the player.
+  SUCCESS: '<prefix> Your text has been successfully sent to Discord.' #Send this Message when the /dcsend Command is SUCCESS.
+  ERROR: '<prefix> Your text must have more than one word.' #Send this Message when the player type /dcsend with no Text.
