@@ -1,0 +1,4 @@
+de\codeali\discordwebhookplugin\commands\dcsendCommand.class
+de\codeali\discordwebhookplugin\commands\discordwebhookpluginCommand.class
+de\codeali\discordwebhookplugin\events\Listerners.class
+de\codeali\discordwebhookplugin\DiscordWebhookPlugin.class
